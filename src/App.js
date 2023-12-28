@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Header, NavBar, FAQAccordion, GridSection, Line, MusicPlayer, } from './components';
 import { fetchNewAlbums, fetchTopAlbums, fetchSongs } from './api/api';
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
 
