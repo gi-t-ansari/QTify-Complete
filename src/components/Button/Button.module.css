@@ -1,6 +1,6 @@
 .button {
-    background-color: var(--color-black);
-    color: var(--color-primary);
+    background-color: var(--black-color);
+    color: var(--primary-color);
     padding: 10px 16px;
     border-radius: 12px;
     cursor: pointer;
