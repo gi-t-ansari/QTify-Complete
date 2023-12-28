@@ -44,7 +44,6 @@ const App = () => {
 
   return (
     <div>
-      // <NavBar data={dataTopAlbums} />
       <Navbar />
       <Header />
       <GridSection title={"Top Albums"} data={dataTopAlbums} type={"album"} />
