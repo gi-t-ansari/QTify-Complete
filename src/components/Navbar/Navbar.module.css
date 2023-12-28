@@ -3,6 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-primary);
+    background-color: var(--primary-color);
     padding: 0px 20px;
 }
