@@ -11,8 +11,8 @@ const NavBar = ({ data }) => {
         <Link to="/">
           <Logo />
         </Link>
-        {/* <SearchBar data={data} className="searchbar" /> */}
-        <Search1 data={data} className="searchbar" />
+        <SearchBar data={data} className="searchbar" />
+{/* <Search1 data={data} className="searchbar" /> */}
 
         <Modals title={'Give Feedback'} />
       </nav>
