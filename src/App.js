@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Header, NavBar, FAQAccordion, GridSection, Line, MusicPlayer, } from './components';
 import { fetchNewAlbums, fetchTopAlbums, fetchSongs } from './api/api';
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
 
@@ -43,7 +44,8 @@ const App = () => {
 
   return (
     <div>
-      <NavBar data={dataTopAlbums} />
+      // <NavBar data={dataTopAlbums} />
+      <Navbar />
       <Header />
       <GridSection title={"Top Albums"} data={dataTopAlbums} type={"album"} />
       <GridSection title={"New Albums "} data={dataNewAlbum} type={"album"} />
